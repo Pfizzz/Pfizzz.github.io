@@ -1,6 +1,6 @@
 :root {
     --primary-color: #7a2048;
-    --secondary-color: gold;
+    --secondary-color: rgb(81, 130, 236);
     --tertiary-color: #1e2761;
   }
 
@@ -80,9 +80,9 @@
       flex-wrap: wrap;
       width: 80%;
       font-size: 18px;
-      
+      padding: 0 0 0 15px;
      
-      border-left: 3px solid var(--secondary-color);
+      border-left: 3px solid var(--tertiary-color);
   }
 
   /* work styles */
@@ -92,6 +92,7 @@
      color: var(--primary-color);
      text-align: right;
      font-size: 50px;
+     padding: 0 15px 0 0;
 
  }
 /*AKA TRAINERS*/
@@ -100,30 +101,46 @@
      margin: 0 auto;
      display: flex;
      flex-wrap: wrap;
+     justify-content: space-around;
  }
 /*AKA TRAINER*/
   .flex-projects {
       display: flex;
       flex-wrap: wrap;
       align-items: flex-start;
+      margin: 15px 0 15px 0;
   }
   .flex-images {
-      flex: 1 12%;
-      border-left: 3px solid var(--secondary-color);
+      flex: 1;
+      border-left: 3px solid var(--tertiary-color);
+      width: 80%;
+      flex-wrap: wrap;
+      padding: 0 0 0 15px;
+      margin: 0 30px 0 0;
+    
+
   }
 
   .first-image {
       width: 100%;
-      justify-content: flex-end;
+      justify-content: space-evenly;
+      border: 3px solid var(--secondary-color);
+      
+      
   }
 
-  .other-test {
-      text-align: center;
+
+
+  .other-img {
+    border: 3px solid var(--secondary-color);
+    padding: 15px 30px 15px 30px;
+    width: 49%;
+  
   }
 
   .flex-row {
     display: flex;
-    margin: 10px 0 10px 0;
+    margin: 30px 0 15px 0;
   }
 
   /* contact info styles */
@@ -132,6 +149,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    margin: 15px 0 15px 0;
   }
 
   .contact-ul {
@@ -140,17 +158,21 @@
     justify-content: space-between;
     
     list-style: none;
-    width: 80%;    
-    border-left: 3px solid var(--secondary-color);
+    width: 70%;    
+    border-left: 3px solid var(--tertiary-color);
     padding: 30px 0 30px 0;
-    
-
-    
+    margin: 0 15px 0 0;
   }
+    
 
   .contact-ul li {
       margin: 10px;
     border-bottom: 3px solid var(--primary-color);
+
+  }
+  .contact-ul a {
+    text-decoration: none;
+    color: var(--primary-color);
     
   
       
