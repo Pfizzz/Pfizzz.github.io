@@ -92,7 +92,7 @@
       color: var(--tertiary-color);
       display: flex;
       flex-wrap: wrap;
-      width: 70%;
+      width: 100%;
       font-size: 18px;
       padding: 0 0 0 30px;
       margin: 0 60px 0 0;
@@ -121,11 +121,53 @@
   .flex-projects {
       display: flex;
       
-      flex-wrap: wrap;
+      /*flex-wrap: wrap; */
       align-items: flex-start;
       margin: 15px 0 15px 0;
   }
 
+  /* EXPERIMENT START */
+  .parent {
+  
+    margin: 10px;
+    padding: 30px;
+   /*display: flex; 
+   flex-flow: row wrap; /*flex-direction flex-wrap*/
+   justify-content: space-between;
+   border-left: 3px solid var(--tertiary-color);
+}
+
+.div1 {
+    
+    box-sizing: border-box;
+    width: 100%;
+    flex: 1;
+    margin: 5px 60px 0 0;
+    display: flex;
+  
+}
+
+.runbuddy  {
+  width: 100%;
+}
+
+.div2 {
+    background-color: #f800db;
+    margin: 5px 0 5px 0;
+    width:45%;
+    height: 200px;
+    font-size: 30px;
+    display: flex;
+    box-sizing: border-box;
+   
+    
+}
+
+.other-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
   .flex-images {
       flex: 1; 
@@ -138,6 +180,8 @@
       
 
   }
+
+  
 
   .flex-images img {
     border: 3px solid var(--secondary-color);
@@ -232,7 +276,7 @@
   }
 
    .other-img {
-    height: 300px;
+    height: 200px;
     margin: auto;
    width:35vw;
    
@@ -254,6 +298,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: flex-start;
     margin: 15px 0 15px 0;
   }
 
