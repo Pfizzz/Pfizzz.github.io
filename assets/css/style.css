@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #408ec6;
-    --secondary-color: #7a2048;
+    --primary-color: #7a2048;
+    --secondary-color: gold;
     --tertiary-color: #1e2761;
   }
 
@@ -17,6 +17,141 @@
 
   /* header styles */
 
+  header {
+      display: flex;
+      justify-content: space-between;
+      background-color: var(--tertiary-color);
+  }
+
+  header nav {
+      margin: 7px 0;
+  }
+
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    
+  }
+
+  header nav ul li {
+    margin: 10px;
+  }
+
   header h1 {
     color: var(--primary-color);
+    background-color: var(--secondary-color);
+  }
+
+  header a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    border-bottom: 3px solid var(--secondary-color);
+
+  }
+
+  /* hero styles start */
+  
+  .hero {
+      background-image: url('../images/background.jpg');
+      background-size: cover;
+      display:flex;
+      justify-content: flex-end;
+      flex-wrap: wrap;
+      align-items: flex-end;
+      background-attachment: fixed;
+      background-position: 99%;
+      height: 200px;
+    
+  }
+
+  .subtitle {
+      color: var(--primary-color);
+      background-color: var(--secondary-color);
+  }
+
+  /* about styles */
+
+  .about-text {
+      color: var(--tertiary-color);
+      display: flex;
+      flex-wrap: wrap;
+      width: 80%;
+      font-size: 18px;
+      
+     
+      border-left: 3px solid var(--secondary-color);
+  }
+
+  /* work styles */
+
+ .nav-style {
+     width: 20%;
+     color: var(--primary-color);
+     text-align: right;
+     font-size: 50px;
+
+ }
+/*AKA TRAINERS*/
+ .work {
+     width: 100%;
+     margin: 0 auto;
+     display: flex;
+     flex-wrap: wrap;
+ }
+/*AKA TRAINER*/
+  .flex-projects {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+  }
+  .flex-images {
+      flex: 1 12%;
+      border-left: 3px solid var(--secondary-color);
+  }
+
+  .first-image {
+      width: 100%;
+      justify-content: flex-end;
+  }
+
+  .other-test {
+      text-align: center;
+  }
+
+  .flex-row {
+    display: flex;
+    margin: 10px 0 10px 0;
+  }
+
+  /* contact info styles */
+
+  .flex-projects-contact {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .contact-ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    list-style: none;
+    width: 80%;    
+    border-left: 3px solid var(--secondary-color);
+    padding: 30px 0 30px 0;
+    
+
+    
+  }
+
+  .contact-ul li {
+      margin: 10px;
+    border-bottom: 3px solid var(--primary-color);
+    
+  
+      
   }
