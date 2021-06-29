@@ -120,8 +120,6 @@
 /* WORK IMAGES*/
   .flex-projects {
       display: flex;
-      
-      flex-wrap: wrap;
       align-items: flex-start;
       margin: 15px 0 15px 0;
   }
@@ -148,7 +146,42 @@
       width: 100%;
    
   }
- 
+  .parent {
+    width: 80%;
+    
+    padding: 30px;
+   /*display: flex; 
+   flex-flow: row wrap; /*flex-direction flex-wrap*/
+   justify-content: space-between;
+   border-left: 3px solid var(--tertiary-color);
+}
+
+.div1 {
+    
+    box-sizing: border-box;
+    width: 100%;
+    flex: 1;
+    margin: 5px 60px 0 0;
+    display: flex;
+  
+}
+
+.runbuddy  {
+  width: 100%;
+}
+
+.div2 {
+    
+    margin: 5px 0 5px 0;
+    width:45%;
+    height: 200px;
+    font-size: 30px;
+    display: flex;
+    box-sizing: border-box;
+   
+    
+}
+
   .horiseon {
     position: relative;
     display: flex;
