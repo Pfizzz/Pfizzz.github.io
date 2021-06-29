@@ -128,14 +128,14 @@
 
 
   .flex-images {
-      flex: 1;
+      flex: 1; 
       border-left: 3px solid var(--tertiary-color);  
-      flex-wrap: wrap;
+      display: flex; 
+      flex-flow: row wrap;
       padding: 0 0 0 30px;
       margin: auto 60px auto auto;
-      flex-direction: row;
-      display: flex; 
-      justify-content: space-between;
+      justify-content:space-between;
+      
 
   }
 
@@ -145,30 +145,33 @@
   }
 
   .first-image {
-      width: 100%; 
-    
+      width: 100%;
+   
   }
  
   .horiseon {
     position: relative;
     display: flex;
+    margin: 0 15px 15px 0;
     
   }
 
   .robot-gladiators {
     position: relative;
     display: flex;
+    align-self: flex-start;
   }
   .runbuddy {
     position: absolute;
     display: flex;
-    height: auto;
-    margin: auto;
+   
+    margin: 0;
   }
 
   .puppies {
     position: relative;
     display: flex;
+    margin: 0 15px 0 0;
   }
 
   .youtube {
@@ -177,7 +180,7 @@
   }
 
 
-  .run-buddy h4 {
+  .run-buddy-box {
     z-index: 99;
     width:fit-content;
     position: relative;
@@ -185,8 +188,10 @@
     bottom: 50px;
     color: var(--primary-color);
     background-color: var(--secondary-color);
+    border: 3px solid var(--primary-color);
+    width: 15%;
   }
-  .horiseon h4 {
+  .horiseon-box {
     z-index: 99;
     width:fit-content;
     position: absolute;
@@ -194,8 +199,10 @@
     bottom: 10px;
     color: var(--primary-color);
     background-color: var(--secondary-color);
+    border: 3px solid var(--primary-color);
+    width: 35%;
   }  
-  .puppies h4 {
+  .puppies-box {
     z-index: 99;
     width:fit-content;
     position: absolute;
@@ -203,8 +210,10 @@
     bottom: 10px;
     color: var(--primary-color);
     background-color: var(--secondary-color);
+    border: 3px solid var(--primary-color);
+    width: 35%;
   }  
-  .youtube h4 {
+  .youtube-box {
     z-index: 99;
     width:fit-content;
     position: absolute;
@@ -212,8 +221,10 @@
     bottom: 10px;
     color: var(--primary-color);
     background-color: var(--secondary-color);
+    border: 3px solid var(--primary-color);
+    width: 35%;
   } 
-   .robot-gladiators h4 {
+   .robot-box {
     z-index: 99;
     width:fit-content;
     position: absolute;
@@ -221,6 +232,8 @@
     bottom: 10px;
     color: var(--primary-color);
     background-color: var(--secondary-color);
+    border: 3px solid var(--primary-color);
+    width: 35%;
   }
 
    .other-img {
@@ -271,7 +284,7 @@
   }
   .contact-ul a {
     text-decoration: none;
-    color: var(--primary-color);
+    color: var(--tertiary-color);
     
   
       
