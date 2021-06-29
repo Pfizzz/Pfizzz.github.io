@@ -161,12 +161,7 @@
     display: flex;
     align-self: flex-start;
   }
-  .runbuddy {
-    position: absolute;
-    display: flex;
-   
-    margin: 0;
-  }
+  
 
   .puppies {
     position: relative;
@@ -286,6 +281,21 @@
     text-decoration: none;
     color: var(--tertiary-color);
     
-  
-      
+  }
+
+  /*MEDIA QUERIES START */
+
+  /* first breakpoint = 1080px */
+
+  @media screen and (max-width: 1080px) {
+    h2 {
+      color:yellowgreen;
+    }
+
+    .flex-row {
+      flex: 1 100%;
+    }
+    .flex-projects {
+      flex: 1 100%;
+    }
   }
