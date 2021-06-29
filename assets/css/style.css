@@ -132,10 +132,10 @@
       border-left: 3px solid var(--tertiary-color);  
       flex-wrap: wrap;
       padding: 0 0 0 30px;
-      margin: 0 60px 0 0;
+      margin: auto;
       flex-direction: row;
       display: flex; 
-      justify-content: space-around;
+      justify-content: space-between;
 
   }
 
@@ -159,7 +159,7 @@
     display: flex;
   }
   .runbuddy {
-    position: relative;
+    position: absolute;
     display: flex;
   }
 
@@ -168,59 +168,59 @@
     display: flex;
   }
 
+  .youtube {
+    position: relative;
+    display: flex;
+  }
+
 
   .run-buddy h4 {
     z-index: 99;
     width:fit-content;
-    position: absolute;
-    left: 0px;
-    bottom: 5px;
+    position: relative;
+    left: 10px;
+    bottom: 30px;
   }
   .horiseon h4 {
     z-index: 99;
     width:fit-content;
     position: absolute;
-    left: 0px;
-    bottom: 5px;
+    left: 10px;
+    bottom: 10px;
   }  
   .puppies h4 {
     z-index: 99;
     width:fit-content;
     position: absolute;
-    left: 0px;
-    bottom: 5px;
+    left: 10px;
+    bottom: 10px;
   }  
   .youtube h4 {
     z-index: 99;
     width:fit-content;
     position: absolute;
-    left: 0px;
-    bottom: 5px;
+    left: 10px;
+    bottom: 10px;
   } 
    .robot-gladiators h4 {
     z-index: 99;
     width:fit-content;
     position: absolute;
-    left: 0px;
-    bottom: 5px;
+    left: 10px;
+    bottom: 10px;
   }
 
    .other-img {
-    height: 200px;
-    margin: 0;
-   width:30vw;
-    
-  }
-
-  /*.godwrap {
-   display:flex;
-    flex-wrap:wrap;
-   flex-direction: row;
-    justify-content: center;
+    height: 300px;
+    margin: auto;
+   width:35vw;
    
     
   }
-*/
+
+    
+  
+
   /* utility */
   .flex-row {
     display: flex;
