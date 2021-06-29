@@ -40,6 +40,11 @@
   header nav ul li {
     margin: 10px 30px 10px 0;
   }
+  header nav ul li a:hover {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    text-shadow: none;
+  }
 
   header h1 {
    
