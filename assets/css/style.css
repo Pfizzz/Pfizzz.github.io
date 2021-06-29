@@ -134,8 +134,8 @@
       padding: 0 0 0 30px;
       margin: 0 60px 0 0;
       flex-direction: row;
-      display: flex;
-      justify-content: space-between;
+      display: flex; 
+      justify-content: space-around;
 
   }
 
@@ -145,19 +145,82 @@
   }
 
   .first-image {
-      width: 100%;
- 
+      width: 100%; 
   }
-
-
-   .other-img {
  
-    margin: 15px 0 0 0;
-   width: 49%;
+  .horiseon {
+    position: relative;
+    display: flex;
     
   }
 
+  .robot-gladiators {
+    position: relative;
+    display: flex;
+  }
+  .runbuddy {
+    position: relative;
+    display: flex;
+  }
 
+  .puppies {
+    position: relative;
+    display: flex;
+  }
+
+
+  .run-buddy h4 {
+    z-index: 99;
+    width:fit-content;
+    position: absolute;
+    left: 0px;
+    bottom: 5px;
+  }
+  .horiseon h4 {
+    z-index: 99;
+    width:fit-content;
+    position: absolute;
+    left: 0px;
+    bottom: 5px;
+  }  
+  .puppies h4 {
+    z-index: 99;
+    width:fit-content;
+    position: absolute;
+    left: 0px;
+    bottom: 5px;
+  }  
+  .youtube h4 {
+    z-index: 99;
+    width:fit-content;
+    position: absolute;
+    left: 0px;
+    bottom: 5px;
+  } 
+   .robot-gladiators h4 {
+    z-index: 99;
+    width:fit-content;
+    position: absolute;
+    left: 0px;
+    bottom: 5px;
+  }
+
+   .other-img {
+    height: 200px;
+    margin: 0;
+   width:30vw;
+    
+  }
+
+  /*.godwrap {
+   display:flex;
+    flex-wrap:wrap;
+   flex-direction: row;
+    justify-content: center;
+   
+    
+  }
+*/
   /* utility */
   .flex-row {
     display: flex;
