@@ -161,7 +161,7 @@
     box-sizing: border-box;
     width: 100%;
     flex: 1;
-    margin: 5px 60px 0 0;
+    margin: 5px 0 0 0;
     display: flex;
   
 }
@@ -173,13 +173,17 @@
 .div2 {
     
     margin: 5px 0 5px 0;
-    width:45%;
-    height: 200px;
+    
+    height: auto;
     font-size: 30px;
     display: flex;
     box-sizing: border-box;
-   
-    
+}
+
+.other-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
   .horiseon {
