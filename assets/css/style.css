@@ -193,6 +193,10 @@
     border: 3px solid var(--tertiary-color);
 }
 
+.div1 span a {
+  text-decoration: none;
+}
+
 .div1 span h5 {
   color:var(--tertiary-color);
 }
@@ -215,8 +219,11 @@
   color:var(--primary-color);
   background-color: var(--secondary-color); 
   border: 3px solid var(--tertiary-color);
+  
 }
-
+.div2 span a {
+  text-decoration: none;
+}
 .div2 span h5 {
   color:var(--tertiary-color);
 }
