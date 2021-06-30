@@ -20,8 +20,7 @@
   header {
       display: flex;
       justify-content: space-between;
-      background-color: var(--tertiary-color);
-     
+      background-color: var(--tertiary-color); 
   }
 
   header nav {
@@ -33,37 +32,33 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    list-style: none;
-    
+    list-style: none;  
   }
 
   header nav ul li {
     margin: 10px 30px 10px 0;
   }
+
   header nav ul li a:hover {
     background: var(--primary-color);
     color: var(--secondary-color);
     text-shadow: none;
   }
 
-  header h1 {
-   
+  header h1 { 
     margin: 5px 0 5px 0;
     font-size: 30px;
     color: var(--primary-color);
     background-color: var(--secondary-color);
     padding: 5px 5px 5px 60px;
-    
- 
   }
 
   header a {
     text-decoration: none;
     color: var(--secondary-color);
     border-bottom: 3px solid var(--secondary-color);
-
   }
-
+  
   /* hero styles start */
   
   .hero {
@@ -75,8 +70,7 @@
       align-items: flex-end;
       background-attachment: fixed;
       background-position: 99%;
-      height: 200px;
-    
+      height: 200px;  
   }
 
   .subtitle {
@@ -90,8 +84,8 @@
   .big-body {
     margin: 0 10% 0 0;
   }
-  /* about styles */
 
+  /* about styles */
   .about-text {
       color: var(--tertiary-color);
       display: flex;
@@ -112,10 +106,8 @@
      text-align: right;
      font-size: 36px;
      padding: 0 15px 0 0;
-    
-
  }
-/*AKA TRAINERS*/
+
  .work {
      width: 100%;
      margin: 0 auto;
@@ -123,13 +115,13 @@
      flex-wrap: wrap;
      justify-content: space-around;
  }
+
 /* WORK IMAGES*/
   .flex-projects {
       display: flex;
       align-items: flex-start;
       margin: 15px 0 15px 0;
   }
-
 
   .flex-images {
       flex: 1; 
@@ -139,8 +131,6 @@
       padding: 0 0 0 30px;
       margin: auto 60px auto auto;
       justify-content:space-between;
-      
-
   }
 
   .flex-images img {
@@ -150,29 +140,22 @@
 
   .first-image {
       width: 100%;
-   
   }
+
   .parent {
-    width: 80%;
-    
+    width: 80%;  
     padding: 30px;
-   /*display: flex; 
-   flex-flow: row wrap; /*flex-direction flex-wrap*/
-   justify-content: space-between;
-   border-left: 3px solid var(--tertiary-color);
-   padding: 0 0 0 15px;
-   
+    justify-content: space-between;
+    border-left: 3px solid var(--tertiary-color);
+    padding: 0 0 0 15px;
 }
 
-.div1 {
-    
+.div1 {   
     box-sizing: border-box;
     width: 100%;
     flex: 1;
     margin: 3px 0 0 0;
-    display: flex;
-  
-  
+    display: flex; 
 }
 
 .runbuddy  {
@@ -181,7 +164,7 @@
   opacity: 0.75;
 }
 
-.div1 span {
+.div-span {
     display: flex;
     align-self: flex-end;
     flex-direction: column;
@@ -194,40 +177,20 @@
     padding: 2px;
 }
 
-.div1 span a {
+.div-span a {
   text-decoration: none;
 }
 
-.div1 span h5 {
+.div-span h5 {
   color:var(--tertiary-color);
 }
+
 .div2 {
     height: auto;
     display: flex;
     width: 49.5%;
     margin: 0 0 0.5% 0;
-    
     z-index: 99;
-}
-
-.div2 span {
-  display: flex;
-  align-self: flex-end;
-  flex-direction: column;
-  margin: 0 0 25px 20px;
-  position:absolute;
-  font-size: 18px;
-  color:var(--primary-color);
-  background-color: var(--secondary-color); 
-  border: 3px solid var(--primary-color);
-  padding: 2px;
-  
-}
-.div2 span a {
-  text-decoration: none;
-}
-.div2 span h5 {
-  color:var(--tertiary-color);
 }
 
 .other-flex {
@@ -267,17 +230,14 @@
     list-style: none;
     flex: 1;    
     border-left: 3px solid var(--tertiary-color);
-    padding: 30px 0 15px 30px;
-
-    
+    padding: 30px 0 15px 30px;  
   }
-    
 
   .contact-ul li {
     margin: 10px;
     border-bottom: 3px solid var(--primary-color);
-
   }
+
   .contact-ul a {
     text-decoration: none;
     color: var(--tertiary-color);
@@ -358,17 +318,12 @@
       border-left: none;
       padding: 5px;
     }
-    .div1 span {
+    .div-span {
       font-size: 10px;
       margin: 0 0 10px 5px;
       border: 2px solid var(--primary-color)
     }
-    .div2 span {
-      font-size: 10px;
-      margin: 5px;
-      border: 2px solid var(--primary-color);
-    }
-
+   
     .flex-projects-contact {
       flex-direction: column;
       align-items: center;
