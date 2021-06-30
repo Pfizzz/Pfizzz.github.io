@@ -177,8 +177,18 @@
 .runbuddy  {
   width: 100%;
   border: 3px solid var(--primary-color);
+  opacity: 0.75;
 }
 
+.div1 span {
+    display: flex;
+    align-self: flex-end;
+    margin: 0 0 20px 20px;
+    position:absolute;
+    font-size: 18px;
+    color:var(--primary-color);
+    background-color: var(--secondary-color);
+}
 .div2 {
     height: auto;
     font-size: 30px;
@@ -186,7 +196,20 @@
     box-sizing: border-box;
     width: 49.5%;
     margin: 0 0 0.5% 0;
+    
+    z-index: 99;
+}
 
+.div2 span {
+  display: flex;
+  align-self: flex-end;
+  margin: 0 0 20px 20px;
+  position:absolute;
+  font-size: 18px;
+  color:var(--primary-color);
+  background-color: var(--secondary-color);
+
+  
 }
 
 .other-flex {
@@ -202,6 +225,7 @@
  width: 100%;
  border: 3px solid var(--primary-color);
  object-fit: fill;
+ opacity: 0.75;
  
   
 }
