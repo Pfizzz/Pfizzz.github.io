@@ -190,7 +190,8 @@
     font-size: 18px;
     color:var(--primary-color);
     background-color: var(--secondary-color);
-    border: 3px solid var(--tertiary-color);
+    border: 3px solid var(--primary-color);
+    padding: 2px;
 }
 
 .div1 span a {
@@ -218,7 +219,8 @@
   font-size: 18px;
   color:var(--primary-color);
   background-color: var(--secondary-color); 
-  border: 3px solid var(--tertiary-color);
+  border: 3px solid var(--primary-color);
+  padding: 2px;
   
 }
 .div2 span a {
@@ -357,12 +359,14 @@
       padding: 5px;
     }
     .div1 span {
-      font-size: 14px;
+      font-size: 10px;
       margin: 0 0 10px 5px;
+      border: 2px solid var(--primary-color)
     }
     .div2 span {
       font-size: 10px;
       margin: 5px;
+      border: 2px solid var(--primary-color);
     }
 
     .flex-projects-contact {
