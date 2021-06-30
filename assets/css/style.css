@@ -162,6 +162,11 @@
   width: 100%;
   border: 3px solid var(--primary-color);
   opacity: 0.75;
+  transition: opacity 1s;
+}
+
+.runbuddy:hover {
+  opacity: 1;
 }
 
 .div-span {
@@ -175,6 +180,8 @@
     background-color: var(--secondary-color);
     border: 3px solid var(--primary-color);
     padding: 2px;
+    opacity: 0.75;
+    transition: opacity 1s;
 }
 
 .div-span a {
@@ -183,6 +190,10 @@
 
 .div-span h5 {
   color:var(--tertiary-color);
+}
+
+.div-span:hover {
+  opacity: 1;
 }
 
 .div2 {
@@ -207,6 +218,11 @@
   border: 3px solid var(--primary-color);
   object-fit: fill;
   opacity: 0.75;
+  transition: opacity 1s;
+}
+
+.other-img:hover {
+  opacity: 1;
 }
   
   /* utility */
