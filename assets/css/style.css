@@ -185,11 +185,12 @@
     display: flex;
     align-self: flex-end;
     flex-direction: column;
-    margin: 0 0 20px 20px;
+    margin: 0 0 25px 20px;
     position:absolute;
     font-size: 18px;
     color:var(--primary-color);
     background-color: var(--secondary-color);
+    border: 3px solid var(--tertiary-color);
 }
 
 .div1 span h5 {
@@ -208,11 +209,12 @@
   display: flex;
   align-self: flex-end;
   flex-direction: column;
-  margin: 0 0 20px 20px;
+  margin: 0 0 25px 20px;
   position:absolute;
   font-size: 18px;
   color:var(--primary-color);
   background-color: var(--secondary-color); 
+  border: 3px solid var(--tertiary-color);
 }
 
 .div2 span h5 {
