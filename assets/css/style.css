@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #7a2048;
+    --primary-color: #8b1d50;
     --secondary-color: rgb(170, 185, 250);
     --tertiary-color: #1e2761;
   }
@@ -37,12 +37,14 @@
 
   header nav ul li {
     margin: 10px 30px 10px 0;
+
   }
 
   header nav ul li a:hover {
     background: var(--primary-color);
     color: var(--secondary-color);
     text-shadow: none;
+    transition: all 0.4s ease-in;
   }
 
   header h1 { 
@@ -50,7 +52,10 @@
     font-size: 30px;
     color: var(--primary-color);
     background-color: var(--secondary-color);
-    padding: 5px 5px 5px 60px;
+    padding: 5px 20px 5px 60px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 0 25px 25px 0;
+    
   }
 
   header a {
@@ -65,19 +70,34 @@
       background-image: url('../images/background.jpg');
       background-size: cover;
       display:flex;
-      justify-content: flex-end;
+      justify-content: flex-start;
       flex-wrap: wrap;
-      align-items: flex-end;
+      align-items: center;
       background-attachment: fixed;
       background-position: 99%;
       height: 200px;  
   }
 
+  .logo {
+    height:150px;
+    opacity: 0.8;
+    margin: 0 0 0 30px;
+    align-self: center;
+
+  }
+
   .subtitle {
       color: var(--primary-color);
       background-color: var(--secondary-color);
-      margin: 0 60px 15px 0;
+      margin: 0 0 15px 0;
       padding: 5px;
+     font-size: 12px;
+      width: fit-content;
+      align-self: flex-end;
+      position: absolute;
+      left: 55%;
+      opacity: 0.8;
+      border:3px solid var(--primary-color)
   }
 
   /*big body */
@@ -278,8 +298,9 @@
     }
 
     header h1 {
-      padding: 5px;
-      font-size: 40px;
+      padding: 5px 20px 5px 20px;
+      font-size: 36px;
+      border-radius: 25px;
     }
     header nav {
       margin: 0;
@@ -292,10 +313,20 @@
 
     .hero {
       justify-content: center;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      height:auto;
     }
 
+    .logo {
+      margin: 5px 0 0 0;
+      height: 200px;
+      }
     .subtitle {
       margin: 5px;
+      left: 0%;
+      position: relative;
+      align-self:auto;
     }
 
     .big-body {
