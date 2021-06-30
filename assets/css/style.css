@@ -1,6 +1,6 @@
 :root {
     --primary-color: #7a2048;
-    --secondary-color: rgb(207, 171, 221);
+    --secondary-color: rgb(170, 185, 250);
     --tertiary-color: #1e2761;
   }
 
@@ -183,15 +183,19 @@
 .div1 span {
     display: flex;
     align-self: flex-end;
+    flex-direction: column;
     margin: 0 0 20px 20px;
     position:absolute;
     font-size: 18px;
     color:var(--primary-color);
     background-color: var(--secondary-color);
 }
+
+.div1 span h5 {
+  color:var(--tertiary-color);
+}
 .div2 {
     height: auto;
-    font-size: 30px;
     display: flex;
     box-sizing: border-box;
     width: 49.5%;
@@ -203,13 +207,16 @@
 .div2 span {
   display: flex;
   align-self: flex-end;
+  flex-direction: column;
   margin: 0 0 20px 20px;
   position:absolute;
   font-size: 18px;
   color:var(--primary-color);
-  background-color: var(--secondary-color);
+  background-color: var(--secondary-color); 
+}
 
-  
+.div2 span h5 {
+  color:var(--tertiary-color);
 }
 
 .other-flex {
